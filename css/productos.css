@@ -1,0 +1,183 @@
+main{
+    max-width: 1920px;
+}
+
+
+.banner{
+    width: 100%;
+    position: relative;
+
+}
+
+.banner img{
+    width: 100%; 
+    
+}
+
+.banner h1 {
+    position: absolute;
+    font-size: 64px;
+    bottom: 0;
+    left: 10px;
+    color: white;
+    text-shadow: 5px 2px #000000c4;
+}
+
+.cards-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+
+}
+
+.product-card{
+    width: 300px;
+    height: 400px;
+    margin: 13px;
+    -webkit-box-shadow: 0px 1px 26px 4px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0px 1px 26px 4px rgba(0,0,0,0.33);
+    box-shadow: 0px 1px 26px 4px rgba(0,0,0,0.33);
+    transition: .3s;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.product-card:hover{
+    transform: scale(1.05);
+}
+
+.product-card .card-img{
+    width: 60%;
+    height: 80%;
+}
+
+.product-card .name{
+    font-family: var(--main-font);
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* infomacion de los productos */
+
+body .seccion-container{
+    position: fixed;
+    width: auto;
+    height: auto;
+    margin: 30px;
+    background-color: white;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-box-shadow: 0px 6px 32px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 32px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 32px -8px rgba(0,0,0,0.75);
+    transition: .3s;
+    visibility: hidden;
+    opacity: 0;
+}
+.sub{
+    text-decoration: underline; 
+    text-decoration-color: var(--azul);
+}
+
+.secction-barra-nombre{
+    width: 100%;
+    height: 100px;
+    position: absolute;background-color: var(--azul);
+    z-index: -1;
+}
+
+.seccion-container .seccion-img{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.seccion-container .seccion-img img{
+    width: 280px;
+    height: 500px;
+}
+
+.seccion-container .seccion-info{
+    width: 40%;
+    height: 80%;
+    margin: 20px;
+    margin-top: 120px;
+    overflow: auto;
+}
+
+.seccion-container .seccion-info .btn{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+.seccion-container .seccion-name{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: white;
+}
+
+.seccion-componentes-container{
+    margin-top: 120px;
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.seccion-componentes{
+    width: 80%;
+    height: 100%;
+}
+
+
+.componente-div{
+    margin: 20px;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid var(--azul);
+    border-radius: 5px;
+
+    overflow: auto;
+}
+
+.componente-img{
+    width: 50%;
+    height: auto;
+    position: absolute;
+}
+
+.componente-p{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.componente-nombre{
+    position: absolute;
+    bottom: -10px;
+    font-weight: 500;
+}
