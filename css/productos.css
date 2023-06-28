@@ -52,6 +52,11 @@ main{
     transition: .3s;
 }
 
+.product-card p{
+    max-width: 80%;
+    overflow: hidden;
+}
+
 .product-card:hover{
     transform: scale(1.05);
 }
@@ -87,6 +92,7 @@ body .seccion-container{
     transition: .3s;
     visibility: hidden;
     opacity: 0;
+    z-index: 1000;
 }
 .sub{
     text-decoration: underline; 
@@ -96,7 +102,8 @@ body .seccion-container{
 .secction-barra-nombre{
     width: 100%;
     height: 100px;
-    position: absolute;background-color: var(--azul);
+    position: absolute;
+    background-color: var(--azul);
     z-index: -1;
 }
 
@@ -151,7 +158,6 @@ body .seccion-container{
 
 
 .componente-div{
-    margin: 20px;
     width: 100%;
     height: 150px;
     position: relative;
@@ -161,12 +167,13 @@ body .seccion-container{
     background-color: rgb(255, 255, 255);
     border: 2px solid var(--azul);
     border-radius: 5px;
-
     overflow: auto;
+    margin-bottom: 5px;
+    transition: .3s;
 }
 
 .componente-img{
-    width: 50%;
+    width: 45%;
     height: auto;
     position: absolute;
 }
@@ -174,10 +181,91 @@ body .seccion-container{
 .componente-p{
     opacity: 0;
     visibility: hidden;
+    display: none;
+    height: 100%;
+    padding: 10px;
+    font-weight: 400;
+    color: white;
 }
 
 .componente-nombre{
     position: absolute;
     bottom: -10px;
     font-weight: 500;
+}
+
+
+@media(max-width: 600px){
+
+    .banner h1{
+        font-size: 36px;
+    }
+
+    .cards-container{
+        justify-content: center;
+    }
+
+    .seccion-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+.secction-barra-nombre{
+    top: 0;
+}
+
+.seccion-container .seccion-img{
+    margin-top: 120px;
+    width: 80%;
+}
+
+.seccion-container .seccion-img img{
+    width: 150px;
+    height: 250px;
+}
+
+.seccion-container .seccion-info{
+    width: 80%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.seccion-container .seccion-componentes-container{
+    width: 80%;
+    margin: 0;
+}
+
+.seccion-container .seccion-componentes-container .seccion-componentes{
+    width: 100%;
+    display: flex;
+    overflow: auto;
+}
+
+.seccion-container .seccion-componentes-container .seccion-componentes div{
+    width: 300px;
+    height: 130px;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.seccion-name{
+    overflow: hidden;
+    height: 30px;
+    width: 250px;
+}
+
+.cards-container .product-card{
+    width: 200px;
+    height: 250px;
+}
+
+.cards-container .product-card p{
+    font-size: 14px;
+    font-weight: 600;
+    overflow: auto;
+    max-height: 40px;
+    max-width: 80%;
+}
+
 }

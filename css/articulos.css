@@ -1,0 +1,131 @@
+.articulo-container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: var(--main-font);
+}
+
+.articulo-container .articulo-title{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    z-index: 200;
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 5px 2px #000000c4;
+
+}
+
+.banner-articulo{
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.banner-articulo img{
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.articulo-container .info-articulo{
+    width: 65%;
+    padding: 30px;
+    color: rgb(105, 105, 105);
+    text-align: justify;
+
+}
+
+.articulo-container .info-articulo p{
+    margin-top: 30px;
+}
+
+.articulo-container .tepuedeinteresar{
+    width: 29%;
+    height: 100%;
+}
+
+.tepuedeinteresar{
+    margin-top:55px;
+}
+.tepuedeinteresar div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card-tepuedeinteresar{
+   width: 50%; 
+   height: 300px;
+   margin: 30px  0px;
+   transition: .2s;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--azul);
+    color: #fff;
+}
+
+.card-tepuedeinteresar img{
+    width: 120px;
+    height: 200px;
+}
+
+.card-tepuedeinteresar p{
+    width: 150px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.card-tepuedeinteresar:hover{
+    transform: scale(1.1);
+
+}
+
+@media (max-width: 700px){
+    .articulo-container .articulo-title{
+        top: 160px;
+    }
+
+    .articulo-container .info-articulo{
+        width: 100%;
+    }
+
+    .articulo-container .tepuedeinteresar{
+        width: 100%;
+    }
+
+    .tepuedeinteresar{
+        flex-direction: column;
+        overflow: auto;
+        justify-content: start;
+    }
+
+    .tepuedeinteresar h3{
+        width: 100%;
+        height: 9%;
+        flex-shrink: 0;
+    }
+    
+    .tepuedeinteresar div{
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+    }
+
+    .tepuedeinteresar article{
+        flex-shrink: 0;
+        margin-left: 20px;
+    }
+}
