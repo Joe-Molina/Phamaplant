@@ -99,6 +99,21 @@ body .seccion-container{
     text-decoration-color: var(--azul);
 }
 
+.seccion-container .loaderr{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 90%;
+    background-color: aliceblue;
+    z-index: 100;
+}
+
+.seccion-container .spinner-border{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
 .secction-barra-nombre{
     width: 100%;
     height: 100px;

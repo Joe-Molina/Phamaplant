@@ -17,11 +17,14 @@ d.addEventListener('click', e =>{
     d.querySelectorAll('.cards-container article').forEach(el => {
         medicamento++;
         if(e.target.closest(`.medicamento${medicamento}`)){
+
             d.querySelector('.medicamnetohidden').dataset.medica = `${medicamento}`
             console.log(`tu mama ${medicamento}`);
             d.querySelector('.seccion-container').style.opacity = 1;
             d.querySelector('.seccion-container').style.visibility = "visible"
+
             medicamentoinfo()
+
         }
         
         
@@ -77,7 +80,7 @@ const medicamentos = async () =>{
 
         json.forEach(el => {
             $template.querySelector(".name").textContent = el.nombre;
-            $template.querySelector(".card-img").setAttribute('src', `../assets/potes/${el.foto}`)
+            $template.querySelector(".card-img").setAttribute('src', `${el.foto}`)
             $template.querySelector(".product-card").classList.remove(`medicamento${el.id - 1}`)
             $template.querySelector(".product-card").classList.add(`medicamento${el.id}`)
 
@@ -94,12 +97,15 @@ const medicamentos = async () =>{
 
 const medicamentoinfo = async () =>{
     try {
-        let selectMedicamento = d.querySelector('.medicamnetohidden').dataset.medica
 
+        d.querySelector('.loaderr').style.display = 'block'
+        let selectMedicamento = d.querySelector('.medicamnetohidden').dataset.medica
+        
         let res = await axios.get("../app/medicamentos.json");
         let json = res.data.Medicamento[selectMedicamento - 1];
-
-        d.querySelector('.seccion-img img').src = `../assets/potes/${json.foto}`;
+        
+        d.querySelector('.seccion-img img').src = ``;
+        d.querySelector('.seccion-img img').src = await `${json.foto}`;
         d.querySelector('.seccion-info .seccion-name').textContent = json.nombre;
         d.querySelector('.seccion-info .seccion-funcion').textContent = json.Funcion;
         d.querySelector('.seccion-info .seccion-descripcion').textContent = json.descripcion;
@@ -110,7 +116,7 @@ const medicamentoinfo = async () =>{
         json.componentes.forEach(el => {
             nComponente++
             console.log(el.foto)
-            $template2.querySelector('.componente-div .componente-img').src = `../assets/componentes/${el.foto}`
+            $template2.querySelector('.componente-div .componente-img').src = el.foto
             $template2.querySelector('.componente-div .componente-p').textContent = el.definicion;
             $template2.querySelector('.componente-div .componente-nombre').textContent = el.nombre;
             $template2.querySelector('.componente-div').classList.remove(`componente${nComponente-1}`)
@@ -134,6 +140,8 @@ const medicamentoinfo = async () =>{
 
         d.querySelector('.seccion-componentes').appendChild($fragment2)
         d.querySelector('.seccion-beneficios ul').appendChild($fragment3)
+
+        d.querySelector('.loaderr').style.display = 'none'
         } catch (err) {
             let message = err.statusText || "Ocurrio un error";
             console.error(message)
