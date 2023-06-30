@@ -1,13 +1,7 @@
 .index-container{
     width: 100%;
-    margin: 0 auto;
-
-
-    
-
-
-    
-
+    margin: 0 auto; 
+    min-height: 85vh;
 }
 
 .slide {

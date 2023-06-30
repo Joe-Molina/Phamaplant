@@ -4,7 +4,6 @@ d.addEventListener('mouseover', e =>{
 
     for (let i = 1; i < 7; i++) {
         if(e.target.closest(`.articulo${i}`)){
-            console.log(i)
             d.querySelector(`.articulo${i} .oscurecer`).style.backgroundColor = '#00000095'
         }
     }
