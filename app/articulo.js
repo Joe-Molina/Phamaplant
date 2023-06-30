@@ -131,18 +131,19 @@ const medicamentoinfo = async () =>{
         let res = await axios.get("../../app/medicamentos.json");
         let json = res.data.Medicamento[selectMedicamento - 1];
         
-        d.querySelector('.seccion-img img').src = `../../assets/potes/${json.foto}`;
+        d.querySelector('.seccion-img img').src = `${json.foto}`;
         d.querySelector('.seccion-info .seccion-name').textContent = json.nombre;
         d.querySelector('.seccion-info .seccion-funcion').textContent = json.Funcion;
         d.querySelector('.seccion-info .seccion-descripcion').textContent = json.descripcion;
         d.querySelector('.seccion-info .seccion-indicaciones').textContent = json.indicaciones;
         d.querySelector('.seccion-componentes').innerHTML = "";
+        d.querySelector('.seccion-beneficios ul').innerHTML = "";
 
         let nComponente = 0
         json.componentes.forEach(el => {
             nComponente++
             console.log(el.foto)
-            $template2.querySelector('.componente-div .componente-img').src = `../../assets/componentes/${el.foto}`
+            $template2.querySelector('.componente-div .componente-img').src = `${el.foto}`
             $template2.querySelector('.componente-div .componente-p').textContent = el.definicion;
             $template2.querySelector('.componente-div .componente-nombre').textContent = el.nombre;
             $template2.querySelector('.componente-div').classList.remove(`componente${nComponente-1}`)
