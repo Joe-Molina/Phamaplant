@@ -55,6 +55,7 @@ main{
 .product-card p{
     max-width: 80%;
     overflow: hidden;
+    margin: 0;
 }
 
 .product-card:hover{
@@ -271,8 +272,8 @@ body .seccion-container{
 }
 
 .cards-container .product-card{
-    width: 200px;
-    height: 250px;
+    width: 180px;
+    height: 220px;
 }
 
 .cards-container .product-card p{
@@ -281,6 +282,8 @@ body .seccion-container{
     overflow: auto;
     max-height: 40px;
     max-width: 80%;
+    height: auto;
+    margin: 0;
 }
 
 }

@@ -105,12 +105,13 @@ const medicamentoinfo = async () =>{
         let json = res.data.Medicamento[selectMedicamento - 1];
         
         d.querySelector('.seccion-img img').src = ``;
-        d.querySelector('.seccion-img img').src = await `${json.foto}`;
+        d.querySelector('.seccion-img img').src = `${json.foto}`;
         d.querySelector('.seccion-info .seccion-name').textContent = json.nombre;
         d.querySelector('.seccion-info .seccion-funcion').textContent = json.Funcion;
         d.querySelector('.seccion-info .seccion-descripcion').textContent = json.descripcion;
         d.querySelector('.seccion-info .seccion-indicaciones').textContent = json.indicaciones;
         d.querySelector('.seccion-componentes').innerHTML = "";
+        d.querySelector('.seccion-beneficios ul').innerHTML = "";
 
         let nComponente = 0
         json.componentes.forEach(el => {
