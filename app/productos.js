@@ -48,7 +48,7 @@ d.addEventListener('mouseover', e =>{
             const seguirCursor = () =>{
                 const sigueAlMouse = document.querySelector(`.componente${i} .componente-p`);
                 sigueAlMouse.style.left = e.pageX - window.scrollX + -435 + 'px';
-                sigueAlMouse.style.top = e.pageY - window.scrollY + -20 + 'px';
+                sigueAlMouse.style.top = e.pageY - window.scrollY + -200 + 'px';
                 document.removeEventListener('mousemove', seguirCursor);
             }
         
