@@ -254,7 +254,7 @@
           {
             "definicion": "Oligoelemento esencial para el correcto funcionamiento del sistema inmune. Favorece la cicatrización de las heridas y ayuda con el funcionamiento del sentido del gusto.",
             "nombre":"Zinc",
-            "foto": "http://drive.google.com/uc?export=view&id=1XwjFOU6FyoEhs3fnjbc0CEeKa6DoFVi7"
+            "foto": "http://drive.google.com/uc?export=view&id=1jabIUsS13khT5cLL1tOlkCHPQYgt31Z_"
            }
           ],
         "beneficios": [
@@ -372,7 +372,7 @@
           "Ayuda a la salud y cuidado de la protasta",
           "Previene la complicación de las operaciones de la próstata.,",
           "Ayuda a la salud del tracto urinario.",
-          "Disminuye la micción frecuente. En recientes estudios e investigaciones su uso contribuye al tratamiento para la caída del cabello, siendo indicado también para el tratamiento dela alopecia.",
+          "Disminuye la micción frecuente. En recientes estudios e investigaciones su uso contribuye al tratamiento para la caída del cabello, siendo indicado también para el tratamiento de la alopecia.",
           "Saw Palmetto contribuye eficazmente a combatir la impotencia y mejorar la salud del hombre."
         ],
         "foto": "http://drive.google.com/uc?export=view&id=1iUB6G6i_tDFRUwrzIwmIpVyoyjAkW0R8"
@@ -559,7 +559,7 @@
           "Vehículo para otras vitaminas y minerales en el cuerpo",
           "Ayuda a la reparación de los tejidos"
         ],
-        "foto": "http://drive.google.com/uc?export=view&id=1fe4981tk9gdMr1e2XO3BBQ3DrO1y41I3"
+        "foto": "http://drive.google.com/uc?export=view&id=1Av3-ZxT9PfkkuwsybjKqoEGAf6zlwRmU"
     },
     {
         "id": 24,
@@ -649,7 +649,7 @@
           "Protege la salud cardiovascular.",
           "Posee propiedades bactericidas."
         ],
-        "foto": "http://drive.google.com/uc?export=view&id=1fe4981tk9gdMr1e2XO3BBQ3DrO1y41I3"
+        "foto": "http://drive.google.com/uc?export=view&id=1qqmLFVe6VY0s9IqMPcYrtCSxQaLSpLAk"
     },
     {
         "id": 28,
@@ -707,11 +707,21 @@
     },
     {
         "id": 30,
-        "nombre": "GLUCOSAMINA+CHONDROITIN+ACIDO HIALURONICO con Magnesium citrate",
+        "nombre": "GLUCOSAMINA+CHONDROITIN+ACIDO HIALURONICO CON MAGNESIUM CITRATE",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición GLUCOSAMINA+CHONDROITIN+ACIDO HIALURONICO con Magnesium citrate, un producto formulado especialmente para brindar protección en articulaciones, cartílagos, tendones de nuestro cuerpo. También ayuda a mantener saludable el tejido dérmico de nuestro cuerpo. ",
         "descripcion": ["60 CAPSULAS ", "100% NATURAL "],
         "indicaciones": "2 CAPSULAS AL DIA ",
         "componentes": [
+          {
+            "definicion": "Confiere función estructural a los cartílagos. Actúa como precursor de los glucosaminoglicanos y proteoglicanos de los tejidos cartilaginosos y, en especial, del cartílago articular. Favorece la formación de los tejidos cartilaginosos.",
+            "nombre":"Glucosamina",
+            "foto": "http://drive.google.com/uc?export=view&id=1eRQr2fOPM9XYes9Qa-TnjfIHOJksUTKw"
+           },
+           {
+             "definicion": "Es el componente mayoritario de los tejidos conectivos del cuerpo como el cartílago, piel, vasos sanguíneos, ligamentos y tendones. Aporta al cartílago sus propiedades mecánicas, elásticas y sus resistencias a la compresión.",
+             "nombre":"Chondroitin",
+             "foto": "http://drive.google.com/uc?export=view&id=1oKbW-p2LzntCJEjn-37O5qQmFNLatFGl"
+            },
           {
            "definicion": "Es un polisacárido que cumple funciones de hidratación en el cuerpo humano. Es conocido ampliamente como un elemento entiedad por su capacidad de mejorar la apariencia de la piel. Dependiendo de donde se encuentre tiene diferentes funciones, en las articulaciones da soporte a las mismas y ayuda con la artrosis, en los cartílagos actúa como reconstituyente, y en la piel como hidratante y de porte para que mantenga su aspecto siempre joven. Es un elemento excelente para mejorar el aspecto de las uñas, evitando el efecto de uñas quebradizas, así como también ayuda a mejorar el aspecto del cabello, ayudando a darle brillo y evitando la caída del mismo. El ácido hialuronico con colágeno y vitamina c es una potente combinación anti edad, por lo cual es ideal siempre tomarlo combinado.",
            "nombre":"Ácido Hialuronico",
