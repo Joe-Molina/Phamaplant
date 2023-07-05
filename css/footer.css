@@ -61,3 +61,19 @@ footer a{
         right: 1px;
         top: 1px
        } 
+
+       @media (max-width: 700px){
+
+        footer img{
+            margin-bottom: 40px;
+        }
+        footer a{
+            margin-bottom: 66px;
+            margin-right: 20px;
+        }
+
+        footer p{
+            position: absolute;
+            right: 50px;
+        }
+       }
