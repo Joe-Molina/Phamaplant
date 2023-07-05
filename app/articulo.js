@@ -95,15 +95,30 @@ d.addEventListener('mouseover', e =>{
         if(e.target.closest(`.componente${i}`)){
             d.querySelector(`.componente${i} .componente-p`).style.display = 'block'
 
-            
-            const seguirCursor = () =>{
-                const sigueAlMouse = document.querySelector(`.componente${i} .componente-p`);
-                sigueAlMouse.style.left = e.pageX - window.scrollX + -435 + 'px';
-                sigueAlMouse.style.top = e.pageY - window.scrollY + -200 + 'px';
-                document.removeEventListener('mousemove', seguirCursor);
+            let viewportWidth = window.innerWidth;
+            if (viewportWidth > 700) {
+                const seguirCursor = () =>{
+                    const sigueAlMouse = document.querySelector(`.componente${i} .componente-p`);
+                    sigueAlMouse.style.left = e.pageX - window.scrollX + -435 + 'px';
+                    sigueAlMouse.style.top = e.pageY - window.scrollY + -200 + 'px';
+                    document.removeEventListener('mousemove', seguirCursor);
+                }
+                document.addEventListener('mousemove', seguirCursor);
             }
-        
-            document.addEventListener('mousemove', seguirCursor);
+
+            if (viewportWidth < 700){
+                d.querySelector(`.componente${i} .componente-img`).style.display = 'none';
+                d.querySelector(`.componente${i} .componente-nombre`).style.display = 'none';
+                d.querySelector(`.componente${i} `).style.border = 'none'
+                d.querySelector(`.componente${i}`).style.height = 'auto';
+                d.querySelector(`.componente${i} .componente-p`).style.borderRadius = '5px'
+
+
+                d.querySelector('.seccion-info').style.marginTop = '100px'
+                //d.querySelector('.seccion-img').style.display = 'none'
+                d.querySelector('.seccion-img').style.display = 'none'
+            }
+
         }     
     }
     
@@ -115,10 +130,18 @@ d.addEventListener('mouseout', e =>{
     for (let i = 1; i < 5; i++) {
         if(e.target.closest(`.componente${i}`)){
             d.querySelector(`.componente${i} .componente-p`).style.display = 'none'
+            d.querySelector(`.componente${i} `).style.border = '2px solid var(--azul)'
+            d.querySelector(`.componente${i} .componente-img`).style.display = 'block';
+            d.querySelector(`.componente${i} .componente-nombre`).style.display = 'block';
+            
+            d.querySelector('.seccion-img').style.display = 'flex'
+            d.querySelector('.seccion-info').style.marginTop = '0px'
+
         }
     }
     
 })
+
 
 const medicamentoinfo = async () =>{
     try {
