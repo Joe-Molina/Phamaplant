@@ -93,32 +93,28 @@ d.addEventListener('mouseover', e =>{
 
     for (let i = 1; i < 5; i++) {
         if(e.target.closest(`.componente${i}`)){
-            console.log(i)
-            d.querySelector(`.componente${i} .componente-img`).style.opacity = 0
-            d.querySelector(`.componente${i} .componente-nombre`).style.opacity = 0
             d.querySelector(`.componente${i} .componente-p`).style.display = 'block'
-            d.querySelector(`.componente${i} .componente-p`).style.opacity = 1
-            d.querySelector(`.componente${i} .componente-p`).style.visibility = 'visible'
-            d.querySelector(`.componente${i}`).style.backgroundColor = 'var(--azul)'
-        }
+
+            
+            const seguirCursor = () =>{
+                const sigueAlMouse = document.querySelector(`.componente${i} .componente-p`);
+                sigueAlMouse.style.left = e.pageX - window.scrollX + -435 + 'px';
+                sigueAlMouse.style.top = e.pageY - window.scrollY + -200 + 'px';
+                document.removeEventListener('mousemove', seguirCursor);
+            }
         
+            document.addEventListener('mousemove', seguirCursor);
+        }     
     }
-
-
-
     
 })
+
 
 d.addEventListener('mouseout', e =>{
 
     for (let i = 1; i < 5; i++) {
         if(e.target.closest(`.componente${i}`)){
-            d.querySelector(`.componente${i} .componente-img`).style.opacity = 1
-            d.querySelector(`.componente${i} .componente-nombre`).style.opacity = 1
             d.querySelector(`.componente${i} .componente-p`).style.display = 'none'
-            d.querySelector(`.componente${i} .componente-p`).style.opacity = 0
-            d.querySelector(`.componente${i} .componente-p`).style.visibility = 'hidden'
-            d.querySelector(`.componente${i}`).style.backgroundColor = 'white'
         }
     }
     
