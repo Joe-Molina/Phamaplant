@@ -5,6 +5,7 @@ const d = document,
     $fragment = d.createDocumentFragment(),
     $fragment2 = d.createDocumentFragment(),
     $fragment3 = d.createDocumentFragment();
+    let viewportWidth = window.innerWidth;
     
 
 d.addEventListener('DOMContentLoaded', e =>{
@@ -44,7 +45,7 @@ d.addEventListener('mouseover', e =>{
         if(e.target.closest(`.componente${i}`)){
             d.querySelector(`.componente${i} .componente-p`).style.display = 'block'
 
-            let viewportWidth = window.innerWidth;
+            
             if (viewportWidth > 700) {
                 const seguirCursor = () =>{
                     const sigueAlMouse = document.querySelector(`.componente${i} .componente-p`);
@@ -84,7 +85,9 @@ d.addEventListener('mouseout', e =>{
             d.querySelector(`.componente${i} .componente-nombre`).style.display = 'block';
             
             d.querySelector('.seccion-img').style.display = 'flex'
-            d.querySelector('.seccion-info').style.marginTop = '0px'
+            if (viewportWidth < 700){
+                d.querySelector('.seccion-info').style.marginTop = '0px'
+            }
 
         }
     }
