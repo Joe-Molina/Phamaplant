@@ -45,7 +45,7 @@
 .articulo-container .info-articulo p{
     padding: 0 30px;
     margin-top: 30px;
-    text-align: end;
+    text-align: start;
 }
 
 .articulo-container .tepuedeinteresar{

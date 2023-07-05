@@ -3,6 +3,7 @@ $template2 = d.getElementById('componente-card-template').content,
 $template3 = d.getElementById('beneficios-card-template').content,
 $fragment2 = d.createDocumentFragment(),
 $fragment3 = d.createDocumentFragment();
+let viewportWidth = window.innerWidth;
 
 
 d.addEventListener('click', e =>{
@@ -95,7 +96,7 @@ d.addEventListener('mouseover', e =>{
         if(e.target.closest(`.componente${i}`)){
             d.querySelector(`.componente${i} .componente-p`).style.display = 'block'
 
-            let viewportWidth = window.innerWidth;
+
             if (viewportWidth > 700) {
                 const seguirCursor = () =>{
                     const sigueAlMouse = document.querySelector(`.componente${i} .componente-p`);
@@ -135,12 +136,15 @@ d.addEventListener('mouseout', e =>{
             d.querySelector(`.componente${i} .componente-nombre`).style.display = 'block';
             
             d.querySelector('.seccion-img').style.display = 'flex'
-            d.querySelector('.seccion-info').style.marginTop = '0px'
+            if (viewportWidth < 700){
+                d.querySelector('.seccion-info').style.marginTop = '0px'
+            }
 
         }
     }
     
 })
+    
 
 
 const medicamentoinfo = async () =>{
