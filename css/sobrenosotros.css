@@ -49,3 +49,10 @@
     height: 100%;
     transform: rotate(90deg);
 }
+
+
+@media (max-width: 700px) {
+    .aboutUs-info div p{
+        font-size: 12px;
+    }
+}
