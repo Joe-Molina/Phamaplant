@@ -9,10 +9,10 @@
     position: sticky;
     top: 0;
     z-index: 500;
-    background-color: #fff;
+    background-image: url(../assets/Blank.png);
     -webkit-box-shadow: 0px 10px 38px -19px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 10px 38px -19px rgba(0,0,0,0.75);
-box-shadow: 0px 10px 38px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 38px -19px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 38px -19px rgba(0,0,0,0.75);
 
 }
 
@@ -117,6 +117,14 @@ box-shadow: 0px 10px 38px -19px rgba(0,0,0,0.75);
     font-weight: bold;
     color: var(--second-color);
     background-color: var(--main-modal-color);
+}
+
+
+@media (max-width:700px) {
+    
+.panel-btn{
+    top: 30px;
+}
 }
 
 
