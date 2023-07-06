@@ -35,7 +35,7 @@ const contenido = () =>{
 
     if(contador === 1){
         $('.banne').style.backgroundImage = 'url("http://drive.google.com/uc?export=view&id=1u5tgv1FKaG0e5G5lElT35Wesb4haK1Y7")'
-        $('.aboutUs-info h2').textContent = 'RESEÑA HISTORICA'
+        $('.aboutUs-info h2').textContent = 'RESEÑA HISTÓRICA'
         $('.aboutUs-info p').textContent = 'Cada historia tiene su propio punto de partida y es así como queremos contar la historia de nuestra empresa. Pharmaplant es una empresa familiar creada en 1998 en la ciudad de Maracay, la cual, viendo el creciente mercado de los productos naturales del momento, aprovecha el impulso del mismo y la necesidad de introducir nuevos productos naturales con materias primas importadas de alta calidad; con esto, innovo en el mercado nacional, poniendo a la disposición del mercado naturista, suplementos herbarios y naturales con altos estándares de calidad. '
     }
 
