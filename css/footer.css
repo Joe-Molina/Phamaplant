@@ -71,9 +71,10 @@ footer a{
             margin-bottom: 66px;
             margin-right: 20px;
         }
-
+        
         footer p{
             position: absolute;
-            right: 50px;
+            left: 18%;
+            font-size: 12px;
         }
        }
