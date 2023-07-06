@@ -132,6 +132,6 @@ box-shadow: 0px 10px 38px -19px rgba(0,0,0,0.75);
     /* Estilos específicos para el modo oscuro */
     .header1 {
         background-image: none;
-       background-color: #222;
+       background-color: #fff;
     }
  }
