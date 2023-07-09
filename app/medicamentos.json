@@ -2,7 +2,7 @@
   "Medicamento": [
     {
         "id": 1,
-        "nombre": "Cental 300MG",
+        "nombre": "CENTAL 300MG",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición CENTAL 300 mg., un producto que está formulado especialmente para disminuir el tejido adiposo, ayudarte al control de peso y la disminución de la celulitis.",
         "descripcion": ["60 CÁPSULAS ", "100% NATURAL"],
         "indicaciones": "2 CÁPSULAS 3 VECES AL DIA CON LAS COMIDAS.",
@@ -29,7 +29,7 @@
     },
     {
         "id": 2,
-        "nombre": "Slimplant",
+        "nombre": "SLIMPLANT",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición SLIMPLANT., un producto que está formulado especialmente para disminuir el tejido adiposo, ayudar al control de peso y la disminución del tejido adiposo.",
         "descripcion": ["60 CÁPSULAS ", "100% NATURAL"],
         "indicaciones": "2 CÁPSULAS 3 VECES AL DIA ANTES DE LAS COMIDAS.",
@@ -64,7 +64,7 @@
     },
     {
         "id": 3,
-        "nombre": "Centella Asiática 330MG",
+        "nombre": "CENTELLA ASIATICÁ 330MG",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición CENTELLA ASIATICA 300MG., un producto que está formulado especialmente para el tratamiento del control de peso y la piel de naranja.",
         "descripcion": ["60 CÁPSULAS ", "100% NATURAL"],
         "indicaciones": "1 o 2 CÁPSULAS 3 VECES AL DIA CON LAS COMIDAS.",
@@ -84,7 +84,7 @@
     },
     {
         "id": 4,
-        "nombre": "Renovate 700MG",
+        "nombre": "RENOVATE 700MG",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición RENOVATE 700 MG, un producto el cual está formulado especialmente para aportar energía al cuerpo, disminuir los niveles de estrés en el cuerpo, ayudar a la relajación, el descanso y el sueño.",
         "descripcion": ["60 CÁPSULAS ", "100% NATURAL"],
         "indicaciones": "2 CÁPSULAS EN LA NOCHE.",
@@ -113,7 +113,7 @@
     },
     {
         "id": 5,
-        "nombre": "Tranquil 300MG",
+        "nombre": "TRANQUIL 300MG",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición TRANQUIL 300MG., un producto que está formulado especialmente para brindarte relajación y un descanso profundo y efectivo a la hora de dormir. Ayuda a disminuir los niveles de estrés en el cuerpo.",
         "descripcion": ["60 CÁPSULAS ", "100% NATURAL"],
         "indicaciones": " 2 CÁPSULAS ANTES DE ACOSTARSE O CADA 12 HORAS. SOLO ADULTOS",
@@ -138,7 +138,7 @@
     },
     {
         "id": 6,
-        "nombre": "Ashwagandha 500MG",
+        "nombre": "ASHWAGANDHA 500MG",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición ASHWAGANDHA 500 MG, un producto el cual está formulado especialmente para brindar soporte al sistema nervioso, ayudando a controlar el estrés y mejorar la calidad del descanso. Ayuda a fortalecer el sistema inmune",
         "descripcion": ["60 CÁPSULAS ", "100% NATURAL"],
         "indicaciones": "2 CÁPSULAS AL DIA CON SUFICIENTE LIQUIDO PREFERIBLEMENTE EN EL DESAYUNO",
@@ -163,7 +163,7 @@
     },
     {
         "id": 7,
-        "nombre": "Omega 3,6,9",
+        "nombre": "OMEGA 3,6,9",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición OMEGA 3,6,9, un producto formulado especialmente para cuidar y dar soporte al sistema cardiovascular y el metabolismo, ya que este tipo de ácidos grasos ayudan a mantener el sistema nervioso, bajar el colesterol LDL o llamado también “Colesterol malo”, ayuda a aumentar el colesterol HDL, o llamado también “Colesterol Bueno”, previene por ende enfermedades cardiovasculares y ayuda a mejorar el sistema inmune.",
         "descripcion": ["30 SOFGEL", "100% NATURAL"],
         "indicaciones": " 2 CÁPSULAS SOFTGEL CON EL DESAYUNO",
@@ -185,7 +185,7 @@
     },
     {
         "id": 8,
-        "nombre": "Omega 3",
+        "nombre": "OMEGA 3",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición OMEGA 3, un producto formulado especialmente para cuidar y dar soporte al sistema cardiovascular y evitar los accidentes cerebrovasculares, se ha demostrado, que el omega 3, también ayuda regular los niveles de estrés en el cuerpo y ofrece un efecto antiinflamatorio en el cuerpo.",
         "descripcion": ["30 SOFGEL", "100% NATURAL"],
         "indicaciones": " 2 SOFTGEL AL DIA CON LA COMIDA PRINCIPLAL. ",
@@ -208,7 +208,7 @@
     },
     {
         "id": 9,
-        "nombre": "Colesplant 300MG",
+        "nombre": "COLESPLANT 300MG",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición COLESPLANT 300 MG, es un producto formulado especialmente para controlar y reducir los niveles altos de colesterol en sangre, también llamado HIPERCOLESTEROLEMIA. Tiene acción depurativa y diurética en el cuerpo.",
         "descripcion": ["60 CÁPSULAS ", "100% NATURAL "],
         "indicaciones": " 2 CÁPSULAS 3 VECES AL DIA",
@@ -241,7 +241,7 @@
     },
     {
         "id": 10,
-        "nombre": "Calcio, Magnesio y Zinc Con Vitamina D",
+        "nombre": "CALCIO, MAGNESIO Y ZINC CON VITAMINA D",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición CALCIO, MAGNESIO Y ZINC CON VITAMINA D, un producto formulado especialmente para mantener sanos y fuerte dientes y huesos. Así mismo el calcio, magnesio y zinc forma parte de diferentes procesos metabólicos en el cuerpo, ya que ayudan a la formación de fluidos corporales y a mantener la estructura del aparato músculo esquelético.",
         "descripcion": ["30 TABLETAS", "100% NATURAL "],
         "indicaciones": " 1 TABLETA CON CADA COMIDA",
@@ -269,7 +269,7 @@
     },
     {
         "id": 11,
-        "nombre": "Vitamina D3",
+        "nombre": "VITAMINA D3",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición VITAMINA D3, un producto formulado especialmente para mantener huesos, músculos y nervios saludables.",
         "descripcion": ["60 SOFGEL", "100% NATURAL "],
         "indicaciones": "1 CÁPSULA GEL CON EL DESAYUNO",
@@ -517,7 +517,7 @@
     },
     {
         "id": 22,
-        "nombre": "Colostrum 500MG",
+        "nombre": "COLOSTTRUM 500MG",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición COLOSTRUM 500 mg., un producto formulado especialmente para ayudarle a fortalecer su sistema inmune y a proteger su salud en general ",
         "descripcion": ["60 CÁPSULAS ", "100% NATURAL "],
         "indicaciones": "2 CÁPSULAS AL DIA CON LA CENA.",
@@ -542,7 +542,7 @@
     },
     {
         "id": 23,
-        "nombre": "VitaminaC 500MG",
+        "nombre": "VITAMINA 500MG",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición VITAMINA C 500 MG, un producto formulado especialmente para fortalecer y mejorar el sistema inmune, y con esto protegernos ante virus, bacterias o agentes patógenos externos. La vitamina C es alta en antioxidante, por lo que ayuda a eliminar y prevenir la formación de radicales libres en nuestro cuerpo. El cuerpo no es capaz de sintetizar la Vitamina C, por lo cual debemos de obtenerla a través de suplementación y alimentación. ",
         "descripcion": ["60 CÁPSULAS ", "100% NATURAL "],
         "indicaciones": "2 CÁPSULAS CON EL DESAYUNO",
@@ -585,7 +585,7 @@
     },
     {
         "id": 25,
-        "nombre": "Colageno Con Vitamina C",
+        "nombre": "COLAGENO CON VITAMINA C",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición COLAGENO CON VITAMINA C, un producto formulado especialmente para mejorar el aspecto de las uñas, cabello y piel, así como proporcionarle a la piel elasticidad y brillo. ",
         "descripcion": ["30 SOFGEL", "100% NATURAL "],
         "indicaciones": "2 CÁPSULAS BLANDAS CON EL DESAYUNO",
