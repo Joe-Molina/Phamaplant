@@ -115,8 +115,8 @@ body .seccion-container{
 }
 
 .seccion-container .boton{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-color: rgb(46, 35, 35);
     position: absolute;
     top: 20px;
@@ -128,7 +128,10 @@ body .seccion-container{
     font-weight: 800;
     opacity: .7;
     transition: .3s;
-    padding: 7px;
+}
+
+.seccion-container .boton img{
+    width: 70%;
 }
 
 .seccion-container .boton:hover{
