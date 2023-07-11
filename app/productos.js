@@ -34,7 +34,7 @@ d.addEventListener('click', e =>{
         
     });
     
-    if(e.target.closest('.seccion-container .seccion-info .btn')){
+    if(e.target.closest('.seccion-container .seccion-info .boton')){
         d.querySelector('.seccion-container').style.opacity = 0;
         d.querySelector('.seccion-container').style.visibility = "hidden"
     }

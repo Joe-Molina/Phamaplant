@@ -114,6 +114,26 @@ body .seccion-container{
     z-index: 100;
 }
 
+.seccion-container .boton{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(46, 35, 35);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 40px;
+    color: white;
+    font-weight: 800;
+    opacity: .7;
+    transition: .3s;
+}
+
+.seccion-container .boton:hover{
+    opacity: 1;
+}
+
 .seccion-container .spinner-border{
     position: absolute;
     top: 50%;
@@ -148,12 +168,6 @@ body .seccion-container{
     margin: 20px;
     margin-top: 120px;
     overflow: auto;
-}
-
-.seccion-container .seccion-info .btn{
-    position: absolute;
-    top: 40px;
-    right: 40px;
 }
 
 .seccion-container .seccion-name{
