@@ -17,7 +17,7 @@
             "nombre":"Alcachofa",
             "foto": "http://drive.google.com/uc?export=view&id=1qxhQ6HwZO2PqGYjLY5OAKRBOjFZAS53j"
            }
- ],
+        ],
         "beneficios": [
           "Ayuda a controlar la celulitis",
           "Estimula la circulación",
@@ -25,12 +25,16 @@
           "Efecto antioxidante",
           "Disminuye el tejido adiposo"
         ],
+        "componentes2": [
+          "CENTELLA ASIÁTICA (PLANTA PULVERIZADA)",
+          "ALCACHOFA (POLVO DE HOJAS, TALLO Y CABEZUELAS FLORALES)"
+        ],
         "foto": "http://drive.google.com/uc?export=view&id=1fe4981tk9gdMr1e2XO3BBQ3DrO1y41I3"
     },
     {
         "id": 2,
         "nombre": "SLIMPLANT",
-        "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición SLIMPLANT., un producto que está formulado especialmente para disminuir el tejido adiposo, ayudar al control de peso y la disminución del tejido adiposo.",
+        "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición SLIMPLANT. Un producto que está formulado especialmente para disminuir el tejido adiposo y ayudar al control de peso.",
         "descripcion": ["60 CÁPSULAS ", "100% NATURAL"],
         "indicaciones": "2 CÁPSULAS 3 VECES AL DIA ANTES DE LAS COMIDAS.",
         "componentes": [
@@ -60,12 +64,21 @@
           "Suave efecto laxante",
           "Inhibe el apetito"
         ],
+        "componentes2": [
+          "PIÑA POLVO DE LA CÁSCARA DEL FRUTO",
+          "ALCACHOFA (POLVO DE HOJAS, TALLO Y CABEZUELAS FLORALES)",
+          "CENTELLA ASIATICA (POLVO DE LA PLANTA)",
+          "CÁSCARA SAGRADA (POLVO DE LA CORTEZA)",
+          "FUCUS (POLVO DEL TALLO)",
+          "EL CONTENIDO DEL FOCUS PROVEE 15 MG DE YODO",
+          "GRAPEFRUIT (POLVO DEL FRUTO)"
+        ],
         "foto": "http://drive.google.com/uc?export=view&id=1R2rMaqLMChDBtUBth6oFPOEQRZH3Hhky"
     },
     {
         "id": 3,
-        "nombre": "CENTELLA ASIATICÁ 330MG",
-        "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición CENTELLA ASIATICA 300MG., un producto que está formulado especialmente para el tratamiento del control de peso y la piel de naranja.",
+        "nombre": "CENTELLA ASIÁTICA 300MG",
+        "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición CENTELLA ASIATICA 300MG. Un producto que está formulado especialmente para el tratamiento del control de peso y la piel de naranja.",
         "descripcion": ["60 CÁPSULAS ", "100% NATURAL"],
         "indicaciones": "1 o 2 CÁPSULAS 3 VECES AL DIA CON LAS COMIDAS.",
         "componentes": [
@@ -80,12 +93,15 @@
           "Actúa como cicatrizante ",
           "Contrarresta los síntomas pre menstruales"
         ],
+        "componentes2": [
+          "CENTELLA ASIÁTICA (PLANTA PULVERIZADA"
+        ],
         "foto": "http://drive.google.com/uc?export=view&id=1MqKM78R3bsdV9qkobhOF7iL3h9QScgIT"
     },
     {
         "id": 4,
         "nombre": "RENOVATE 700MG",
-        "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición RENOVATE 700 MG, un producto el cual está formulado especialmente para aportar energía al cuerpo, disminuir los niveles de estrés en el cuerpo, ayudar a la relajación, el descanso y el sueño.",
+        "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición RENOVATE 700 MG. Un producto el cual está formulado especialmente para aportar energía al cuerpo, disminuir los niveles de estrés, ayudar a la relajación, el descanso y el sueño.",
         "descripcion": ["60 CÁPSULAS ", "100% NATURAL"],
         "indicaciones": "2 CÁPSULAS EN LA NOCHE.",
         "componentes": [
@@ -108,6 +124,13 @@
           "Aporta relajación y descanso",
           "Ayuda a conciliar y regular el sueño.",
           "Ayuda al sistema inmune"
+        ],
+        "componentes2": [
+          "ASHWAGANDHA ROOT EXTRACT 4:1",
+          "MAGNESIUM CITRATE",
+          "GABA",
+          "ZINC CITRATE",
+          "PASSION FLOWER 4:1"
         ],
         "foto": "http://drive.google.com/uc?export=view&id=1Qy0lRsmcNU3EUJPZpsZQ42iMo_8tiBbg"
     },
@@ -134,6 +157,13 @@
           "Ayuda a nivelar los niveles de estrés en el cuerpo.",
           "Contribuye al sueño reparador"
         ],
+        "componentes2": [
+          "PASIFLORA",
+          "TILO",
+          "CÁSCARA DE NARANJO",
+          "AVENA",
+          "VALERIANA"
+        ],
         "foto": "http://drive.google.com/uc?export=view&id=1h3fgWIkADl395qLCpeRgXGYJ4ql-ylmI"
     },
     {
@@ -159,13 +189,16 @@
           "Mejora de la función cerebral (incluida la memoria)",
           "La ashwagandha contiene sustancias químicas que pueden ayudar a calmar el cerebro, reducir la hinchazón, disminuir la presión arterial y elevar el sistema inmune"
         ],
+        "componentes2": [
+          "ASHWAGANDHA EXTRACT"
+        ],
         "foto": "http://drive.google.com/uc?export=view&id=1qMXdI6WQZCxbt0pRjLUFxacImSWKpoIe"
     },
     {
         "id": 7,
         "nombre": "OMEGA 3,6,9",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición OMEGA 3,6,9, un producto formulado especialmente para cuidar y dar soporte al sistema cardiovascular y el metabolismo, ya que este tipo de ácidos grasos ayudan a mantener el sistema nervioso, bajar el colesterol LDL o llamado también “Colesterol malo”, ayuda a aumentar el colesterol HDL, o llamado también “Colesterol Bueno”, previene por ende enfermedades cardiovasculares y ayuda a mejorar el sistema inmune.",
-        "descripcion": ["30 SOFGEL", "100% NATURAL"],
+        "descripcion": ["30 SOFTGEL", "100% NATURAL"],
         "indicaciones": " 2 CÁPSULAS SOFTGEL CON EL DESAYUNO",
         "componentes": [
           {
@@ -181,14 +214,19 @@
           "Reduce la fatiga y el cansancio ",
           "Ayuda con la apariencia de la piel y reduce los procesos de dermatitis asociada a procesos alérgicos."
         ],
+        "componentes2": [
+          "VITAMIN E (AS DL-ALPHA TOCOPHERYL ACETATE)",
+          "FISH OIL",
+          "FLAXSEED OIL"
+        ],
         "foto": "http://drive.google.com/uc?export=view&id=1fNC1Q963IIplqUfIZDGchVwAQqWDJJ74"
     },
     {
         "id": 8,
         "nombre": "OMEGA 3",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición OMEGA 3, un producto formulado especialmente para cuidar y dar soporte al sistema cardiovascular y evitar los accidentes cerebrovasculares, se ha demostrado, que el omega 3, también ayuda regular los niveles de estrés en el cuerpo y ofrece un efecto antiinflamatorio en el cuerpo.",
-        "descripcion": ["30 SOFGEL", "100% NATURAL"],
-        "indicaciones": " 2 SOFTGEL AL DIA CON LA COMIDA PRINCIPLAL. ",
+        "descripcion": ["30 SOFTGEL", "100% NATURAL"],
+        "indicaciones": " 2 CÁPSULAS SOFTGEL AL DIA CON LA COMIDA PRINCIPLAL. ",
         "componentes": [
           {
            "definicion": "El omega 3 contiene ácidos grasos poli-insaturados, ácido docosa-hexaenóico (DHA) y ácido eicosa-pentaenóico (EPA). Se encuentra en algunos tipos de grasa de pescado como el salmón. El cuerpo humano no puede elaborar ácidos grasos Omega 3 a partir de otras sustancias, por lo cual su consumo debe de ser aportado a través de suplementos dietéticos y dietas. El Omega 3 ayuda a la protección cardiovascular, previene accidentes cerebrovasculares, ayuda a reducir la placa de colesterol, también se ha comprobado que ayuda en procesos inflamatorios en el cuerpo y a reducir niveles de estrés.",
@@ -203,6 +241,12 @@
           "Bajar ligeramente la presión arterial.",
           "Retardar la acumulación de placas de colesterol en las arterias.",
           "Reducir los triglicéridos."
+        ],
+        "componentes2": [
+          "FISH OIL CONCENTRATE ",
+          "OMEGA 3 FATTY ACIDS:",
+          "EICOSAPENTAENOIC ACID (EPA)",
+          "DOCOSAHEXAENOIC ACID (DHA)"
         ],
         "foto": "http://drive.google.com/uc?export=view&id=1zXjsOlsHcLqP6okoiSGptw415OIX9o6Y"
     },
@@ -237,6 +281,13 @@
           "Depurativo",
           "Ayuda a reducir la placa de colesterol en Arterias "
         ],
+        "componentes2": [
+          "CYNARA SCOLYMUS (ALCACHOFA)",
+          "VISCUM ALBUM (MUÉRDAGO)",
+          "ZEA MAYS (BARBA DE MAÍZ)",
+          "PHALARIS CANARIENSIS (ALPISTE)",
+          "CICER ARIETINUM (GARBANZO)"
+        ],
         "foto": "http://drive.google.com/uc?export=view&id=13QCVTWZAx2hVP_6Pj1a7RR-AJqG9Ldjj"
     },
     {
@@ -254,7 +305,7 @@
           {
             "definicion": "Oligoelemento esencial para el correcto funcionamiento del sistema inmune. Favorece la cicatrización de las heridas y ayuda con el funcionamiento del sentido del gusto.",
             "nombre":"Zinc",
-            "foto": "http://drive.google.com/uc?export=view&id=1jabIUsS13khT5cLL1tOlkCHPQYgt31Z_"
+            "foto": "http://drive.google.com/uc?export=view&id=1LrHGXwECnN1Qs3QBKRcOJgcmDTtEdCUF"
            }
           ],
         "beneficios": [
@@ -265,13 +316,19 @@
           "Regula los fluidos corporales",
           "Da soporte al sistema inmune"
         ],
-        "foto": "http://drive.google.com/uc?export=view&id=1fe4981tk9gdMr1e2XO3BBQ3DrO1y41I3"
+        "componentes2": [
+          "CALCIUM CARBONATE",
+          "MAGNESIUM OXIDE",
+          "ZINC SULFATE",
+          "VITAMINA D"
+        ],
+        "foto": "http://drive.google.com/uc?export=view&id=1jabIUsS13khT5cLL1tOlkCHPQYgt31Z_"
     },
     {
         "id": 11,
         "nombre": "VITAMINA D3",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición VITAMINA D3, un producto formulado especialmente para mantener huesos, músculos y nervios saludables.",
-        "descripcion": ["60 SOFGEL", "100% NATURAL "],
+        "descripcion": ["60 SOFTGEL", "100% NATURAL "],
         "indicaciones": "1 CÁPSULA GEL CON EL DESAYUNO",
         "componentes": [
           {
@@ -286,13 +343,16 @@
           "Brinda apoyo al sistema inmune",
           "Ayuda a la absorción del calcio a nivel intestinal"
         ],
+        "componentes2": [
+          "VITAMINA D3 (As Cholecalciferol from lanolin)"
+        ],
         "foto": "http://drive.google.com/uc?export=view&id=1on6yZjp6IiDFprqSnp1zuSiMJkmCtMzR"
     },
     {
         "id": 12,
         "nombre": "VITAMINA E 400 IU CON SELENIO 50 MCG",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición VITAMINA E 400 IU CON SELENIO 50 MCG, un producto formulado especialmente para mejorar el aspecto de la piel, uñas y cabello, con su acción antioxidante ayuda al cuerpo a eliminar los radicales libres.",
-        "descripcion": ["30 SOFGEL", "100% NATURAL "],
+        "descripcion": ["30 SOFTGEL", "100% NATURAL "],
         "indicaciones": "2 CÁPSULAS BLANDAS CON EL DESAYUNO",
         "componentes":[
           {
@@ -307,6 +367,10 @@
           "Potente antioxidante",
           "Evita la formación de coágulos sanguíneos por su acción vasodilatadora",
           "Ayuda a que el cuerpo use la Vitamina K"
+        ],
+        "componentes2": [
+          "VITAMINA E ",
+          "SELENIUM (FROM SELENIUM YEAST)"
         ],
         "foto": "http://drive.google.com/uc?export=view&id=1-uA1pNs8q7hzZeSZOhZH4_6lzDK_m03O"
     },
@@ -327,6 +391,9 @@
           "Ayuda a combatir el estreñimiento",
           "Sirve para desintoxicar el hígado y ayuda a mejorar la producción de bilis.",
           "Por su acción laxante y depurativa es usada en los regímenes para adelgazar."
+        ],
+        "componentes2": [
+          "CÁSCARA SAGRADA (RHAMNUS PURSHIANUS)"
         ],
         "foto": "http://drive.google.com/uc?export=view&id=1cNjtwORWcu69QX2drfeJY5NakEehKgsz"
     },
@@ -353,6 +420,10 @@
           "Sirve para desintoxicar el hígado y ayuda a mejorar la producción de bilis.",
           "Por su acción laxante y depurativa es usada en los regímenes para adelgazar."
         ],
+        "componentes2": [
+          "EXT. SECO MICRONIZADO DE ZABILA",
+          "LINAZA"
+        ],
         "foto": "http://drive.google.com/uc?export=view&id=1mYwAqjTNlK9aChnj8T8sQjAjOcWycuMn"
     },
     {
@@ -374,6 +445,9 @@
           "Ayuda a la salud del tracto urinario.",
           "Disminuye la micción frecuente. En recientes estudios e investigaciones su uso contribuye al tratamiento para la caída del cabello, siendo indicado también para el tratamiento de la alopecia.",
           "Saw Palmetto contribuye eficazmente a combatir la impotencia y mejorar la salud del hombre."
+        ],
+        "componentes2": [
+          "SAW PALMETTO BERRY EXTRACT (SERENCA REPENS)"
         ],
         "foto": "http://drive.google.com/uc?export=view&id=1iUB6G6i_tDFRUwrzIwmIpVyoyjAkW0R8"
     },
@@ -402,6 +476,15 @@
           "Regula las hormonas.",
           "Mejora la producción de esperma."
         ],
+        "componentes2": [
+          "DAMIANA",
+          "SAW PALMETTO",
+          "GINSENG PANAX",
+          "GUARANÁ",
+          "KOLA NUT",
+          "MACA",
+          "GINKGO BILOBA "
+        ],
         "foto": "http://drive.google.com/uc?export=view&id=1yy2jA08SDBRWKErMRUIerG5ZQM4EFcfZ"
     },
     {
@@ -422,6 +505,9 @@
           "Aumenta o Estabiliza los niveles de estrógenos en el cuerpo",
           "Ayuda con el tránsito intestinal.",
           "Ayuda a regular la temperatura corporal. "
+        ],
+        "componentes2": [
+          "ÑAME SALVAJE (DIOSCOREA VILLOSA) TUBÉRCULOS SECOS Y PULVERIZADOS"
         ],
         "foto": "http://drive.google.com/uc?export=view&id=1JiP0MKSVUBAI5Dvn6w4XHRYkiv4dv1eO"
     },
@@ -444,6 +530,9 @@
           "Ayuda en el tratamiento para las hemorroides",
           "Mejora el dolor en las piernas.",
           "Ayuda con la sensación de pesadez e hinchazón de miembros inferiores."
+        ],
+        "componentes2": [
+          "CASTAÑO DE INDIAS (POLVO DE SEMILLAS)"
         ],
         "foto": "http://drive.google.com/uc?export=view&id=1u4eDEzTUc1IdTGUPhScJvPAnp_0jyT7W"
     },
@@ -470,6 +559,12 @@
           "Activa la circulación.",
           "Limpia el hígado."
         ],
+        "componentes2": [
+          "CASTAÑO DE INDIAS (SEMILLAS PULVERIZADAS)",
+          "CENTELLA ASIÁTICA (PLANTA SECA PULVERIZADA ",
+          "GINKGO BILOBA (HOJAS PULVERIZADAS)",
+          "BOLDO (HOJAS PULVERIZADAS)"
+        ],
         "foto": "http://drive.google.com/uc?export=view&id=1fW0g4ov1k24EHP5Qhf-6eKiIntOaqoSl"
     },
     {
@@ -490,6 +585,9 @@
           "Ayuda a desintoxicar el hígado ",
           "Aumenta la micción",
           "Reduce los niveles de azúcar en sangre"
+        ],
+        "componentes2": [
+          "PHYLLANTHUS NIRURI LEAVES EXTRACT 1000 MG"
         ],
         "foto": "http://drive.google.com/uc?export=view&id=1W8UjXnX4T0mjg8JnrBE1jeye0O7wyBem"
     },
@@ -512,6 +610,10 @@
           "Acción desintoxicante en el cuerpo.",
           "ayudando a mantener los exámenes sanguíneos dentro de los límites normales. ",
           "Mejora el aspecto de la piel"
+        ],
+        "componentes2": [
+          "MILK THISTLE EXTRACT",
+          "(SILYBUM MARIANUM) (FRUIT/SEEDS) (STANDARDIZED TO)"
         ],
         "foto": "http://drive.google.com/uc?export=view&id=1eFgyNLOtfewH_iCMEeNszXXH8TwDWRMl"
     },
@@ -538,11 +640,14 @@
           "El calostro contiene factores nutricionales que ayudan a disminuir el proceso de envejecimiento,",
           "Ayuda a proteger la oxidación celular derivada del estrés."
         ],
+        "componentes2": [
+          "COLOSTRUM (FROM BOVINE) STANDARDIZED TO CONTAIN 25% IgG"
+        ],
         "foto": "http://drive.google.com/uc?export=view&id=1Rlm1eeZNzevRsHIuDHB9hVXi7lV6KQAL"
     },
     {
         "id": 23,
-        "nombre": "VITAMINA 500MG",
+        "nombre": "VITAMINA C 500MG",
         "Funcion": "PHARMAPLANT en la constante búsqueda de productos de calidad, pone a su disposición VITAMINA C 500 MG, un producto formulado especialmente para fortalecer y mejorar el sistema inmune, y con esto protegernos ante virus, bacterias o agentes patógenos externos. La vitamina C es alta en antioxidante, por lo que ayuda a eliminar y prevenir la formación de radicales libres en nuestro cuerpo. El cuerpo no es capaz de sintetizar la Vitamina C, por lo cual debemos de obtenerla a través de suplementación y alimentación. ",
         "descripcion": ["60 CÁPSULAS ", "100% NATURAL "],
         "indicaciones": "2 CÁPSULAS CON EL DESAYUNO",
@@ -558,6 +663,9 @@
           "Propiedades antioxidante",
           "Vehículo para otras vitaminas y minerales en el cuerpo",
           "Ayuda a la reparación de los tejidos"
+        ],
+        "componentes2": [
+          "VITAMINA C (ASCORBIC ACID)"
         ],
         "foto": "http://drive.google.com/uc?export=view&id=1Av3-ZxT9PfkkuwsybjKqoEGAf6zlwRmU"
     },
@@ -580,6 +688,9 @@
           "Mejora El Metabolismo ",
           "Desintoxica El hígado",
           "Fortalece El Sistema Nervioso"
+        ],
+        "componentes2": [
+          "SACCHAROMYCES C"
         ],
     "foto": "http://drive.google.com/uc?export=view&id=1Y2pOhoc98v12m4F_nl3m-Vnv04yBSoTv"
     },
@@ -604,6 +715,11 @@
           "Ayuda a la formación de fibras musculares",
           "Ayuda a mantener hidratado el líquido sinovial de las articulaciones "
         ],
+        "componentes2": [
+          "VITAMIN C (As ascorbic Acid)",
+          "Colágeno Hidrolizado ",
+          "L OMITHINE HCI"
+        ],
         "foto": "http://drive.google.com/uc?export=view&id=1OevbivZmkeG6dYq4FcdLTE1gD2seHpvs"
     },
     {
@@ -625,6 +741,11 @@
           "Contribuye a la Regeneración Cartílagos, Tendones y Huesos.",
           "Protege la Piel de las radiaciones UV, actuando como Antioxidante.",
           "Colabora con la salud en general"
+        ],
+        "componentes2": [
+          "COLAGENO HIDROLIZADO (FROM BOVINE CARTILAGE)",
+          "ACIDO HIALURONICO ",
+          "VITAMINA C"
         ],
         "foto": "http://drive.google.com/uc?export=view&id=1XbJuRRNlDum6DivUyBBRgWfdQNomw-uA"
     },
@@ -648,6 +769,9 @@
           "Fortalece el sistema inmune.",
           "Protege la salud cardiovascular.",
           "Posee propiedades bactericidas."
+        ],
+        "componentes2": [
+          "APPLE CIDER VINEGAR POWER"
         ],
         "foto": "http://drive.google.com/uc?export=view&id=1qqmLFVe6VY0s9IqMPcYrtCSxQaLSpLAk"
     },
@@ -677,6 +801,9 @@
           "Ayuda con el estreñimiento",
           "Protege los riñones"
         ],
+        "componentes2": [
+          "CITRATO DE MAGNESIO"
+        ],
         "foto": "http://drive.google.com/uc?export=view&id=1Neizw_HSRjP72P4tUdl3tiTWHQGYNEjG"
     },
     {
@@ -702,6 +829,11 @@
           "Ofrece efecto protector frente a las fuerzas mecánicas",
           "Aumenta el colágeno presente en los tejidos de la piel",
           "Ayuda a la regeneración articular"
+        ],
+        "componentes2": [
+          "GLUCOSAMINE (AS GLUCOSAMINE SULFATE 2KC1)",
+          "CHONDROITIN (AS SODIUM SULFATE)",
+          "MSM (METHYLSULFONYLMETHANE) (OPTI MSM)"
         ],
         "foto": "http://drive.google.com/uc?export=view&id=1pQqDOV9-sQaeQcEtGQXkM9vwaky6KSTh"
     },
@@ -737,6 +869,12 @@
           "Ayuda a la recuperación de lesiones deportivas",
           "Reduce el dolor articular en personas de la tercera edad y deportistas "
         ],
+        "componentes2": [
+          "Glucosamina (As Glucosamine Sulfate 2KC1)",
+          "Chondroitin (As Sodium Sulfate)",
+          "Ácido Hialuronico (As Sodium Hyaluronate)",
+          "Magnesio (As Magnesium Citrate)"
+        ],
         "foto": "http://drive.google.com/uc?export=view&id=1xtZnRrBdSiybYiEEmR4a5zmfyvmYA6gW"
     },
     {
@@ -769,6 +907,12 @@
           "Ayuda con las alteraciones asociadas a mareos y vértigos.",
           "Posee propiedades antioxidantes."
         ],
+        "componentes2": [
+          "GINKGO BILOBA",
+          "ROMERO",
+          "JENGIBRE",
+          "AMARANTO"
+        ],
         "foto": "http://drive.google.com/uc?export=view&id=13XrxTIOsvvtD8BaxBv8tAwi5HaQAUfGT"
     },
     {
@@ -780,7 +924,7 @@
         "componentes": [
           {
             "definicion": "Aumenta la vitalidad mental y favorecer el flujo sanguíneo, especialmente del sistema nervioso central También tiene ciertos efectos sobre el sistema cardiovascular y propiedades antioxidantes. Se usa para tratar síntomas leves de pacientes con demencia. Mejora la memoria y la agilidad mental. Se usa para tratar en algunos casos, trastornos asociados a la alteración de la microcirculación cerebral (como mareos y vértigos).",
-            "nombre":"Gingo Biloba",
+            "nombre":"Ginkgo Biloba",
             "foto": "http://drive.google.com/uc?export=view&id=1BGt5ZWTxfLmcMF4HEgO4ayH1sn6-ohCP"
           }
           ],
@@ -789,6 +933,9 @@
           "Ayuda con la falta de concentración y atención",
           "Ayuda con las alteraciones asociadas a mareos y vértigos.",
           "Posee propiedades antioxidantes."
+        ],
+        "componentes2": [
+          "GINKGO BILOBA (POLVO DE HOJAS)"
         ],
         "foto": "http://drive.google.com/uc?export=view&id=1cziwc7jLhGWnGUpmoVeySjHX8zOu2SvP"
     },
@@ -819,6 +966,11 @@
           "Bloquea el desarrollo de células cancerígenas",
           "Ayuda a reducir los quistes ocasionados por condición poliquística tanto en senos como en ovarios."
         ],
+        "componentes2": [
+          "EXT. CÁSCARA DE UVA",
+          "EXT. SEMILLA DE UVA",
+          "EXT. TÉ VERDE"
+        ],
         "foto": "http://drive.google.com/uc?export=view&id=1NqZDVK2h8NAREcTDKBy6CWwIfvFc5hNi"
     },
     {
@@ -846,6 +998,18 @@
           "Antiasmático y Mucolitico",
           "Facilita la expulsión de la Flema.",
           "Calmante de la tos seca y tos del fumador."
+        ],
+        "componentes2": [
+          "EXTRACTO FLUIDO DE DROSERA",
+          "EXTRACTO FLUIDO DE POLÍGALA",
+          "EXTRACTO FLUIDO DE JENGIBRE",
+          "EXTRACTO FLUIDO DE CEBOLLA MORADA",
+          "EXTRACTO FLUIDO DE AJO",
+          "MIEL",
+          "ACEITE DE SEJE",
+          "AZÚCAR",
+          "BENZOATO DE SODIO",
+          "ÁCIDO CÍTRICO"
         ],
         "foto": "http://drive.google.com/uc?export=view&id=1gjpF4YgUeCXqdfUvOQnSWAfOA4VUG1QZ"
     }

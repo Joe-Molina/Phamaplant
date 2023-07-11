@@ -2,9 +2,11 @@ const d = document,
     $template = d.getElementById('crud-template').content,
     $template2 = d.getElementById('componente-card-template').content,
     $template3 = d.getElementById('beneficios-card-template').content,
+    $template4 = d.getElementById('componentes2-card-template').content,
     $fragment = d.createDocumentFragment(),
     $fragment2 = d.createDocumentFragment(),
     $fragment3 = d.createDocumentFragment();
+    $fragment4 = d.createDocumentFragment();
     let viewportWidth = window.innerWidth;
     
 
@@ -134,6 +136,7 @@ const medicamentoinfo = async () =>{
         d.querySelector('.seccion-info .seccion-indicaciones').textContent = json.indicaciones;
         d.querySelector('.seccion-componentes').innerHTML = "";
         d.querySelector('.seccion-beneficios ul').innerHTML = "";
+        d.querySelector('.seccion-componentes2 ul').innerHTML = "";
 
         let nComponente = 0
         json.componentes.forEach(el => {
@@ -160,8 +163,16 @@ const medicamentoinfo = async () =>{
             $fragment3.appendChild($clone);
         })
 
+        json.componentes2.forEach(el =>{
+            $template4.querySelector('li').textContent = el
+
+            let $clone = d.importNode($template4, true)
+            $fragment4.appendChild($clone);
+        })
+
         d.querySelector('.seccion-componentes').appendChild($fragment2)
         d.querySelector('.seccion-beneficios ul').appendChild($fragment3)
+        d.querySelector('.seccion-componentes2 ul').appendChild($fragment4)
 
         d.querySelector('.loaderr').style.display = 'none'
         } catch (err) {

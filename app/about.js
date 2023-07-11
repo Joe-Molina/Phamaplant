@@ -42,7 +42,7 @@ const contenido = () =>{
     if(contador === 2){
         $('.banne').style.backgroundImage = 'url("http://drive.google.com/uc?export=view&id=1olau9DnfewyQuuVQSzq0MsLwRjUXSbqC")'
         $('.aboutUs-info h2').textContent = 'MISIÓN'
-        $('.aboutUs-info p').textContent = 'Ofrecer productos de calidad, innovando en el mercado nacional de acuerdo a las tendencias yexigencias de nuestros clientes, a fin, de satisfacer calidad, demanda y servicio. Todo esto bajo un ambiente cómodo y una relación GANAR-GANAR con nuestros socios comerciales.'
+        $('.aboutUs-info p').textContent = 'Ofrecer productos de calidad, innovando en el mercado nacional de acuerdo a las tendencias y exigencias de nuestros clientes, a fin, de satisfacer calidad, demanda y servicio. Todo esto bajo un ambiente cómodo y una relación GANAR-GANAR con nuestros socios comerciales.'
     }
 
     if(contador === 3){
