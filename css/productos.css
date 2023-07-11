@@ -58,7 +58,6 @@ main{
 
 .product-card p{
     max-width: 80%;
-    overflow: hidden;
     margin: 0;
 }
 
@@ -71,12 +70,13 @@ main{
     height: 80%;
 }
 
-.product-card .name{
+.cards-container .product-card .name{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
     font-size: 16px;
     text-align: center;
     font-weight: 700;
+    overflow: hidden;
 }
 
 /* infomacion de los productos */
@@ -307,10 +307,10 @@ body .seccion-container{
     height: 190px;
 }
 
-.cards-container .product-card p{
+.cards-container .product-card .name{
     font-size: 12px;
     font-weight: 600;
-    overflow: auto;
+    overflow: hidden;
     max-height: 40px;
     max-width: 80%;
     height: auto;
