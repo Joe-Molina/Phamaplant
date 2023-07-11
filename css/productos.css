@@ -128,6 +128,7 @@ body .seccion-container{
     font-weight: 800;
     opacity: .7;
     transition: .3s;
+    padding: 7px;
 }
 
 .seccion-container .boton:hover{
@@ -342,6 +343,11 @@ body .seccion-container{
     text-align: start;
     transition: .3s;
     visibility: visible;
+}
+
+.seccion-container .boton{
+    top: -20px;
+    right: -20px;
 }
 
 }
