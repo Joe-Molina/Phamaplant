@@ -314,6 +314,7 @@ body .seccion-container{
     max-width: 80%;
     height: auto;
     margin: 0;
+    line-height: 1;
 }
 
 .seccion-img{
